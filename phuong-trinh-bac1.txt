@@ -1,0 +1,21 @@
+using System:
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleAppLication8
+{
+    class Program
+}
+static Int Main (string[] )
+{
+    float x;
+    Console.WriteLine (" nhap hai so a, b :");
+    int a = Int32.Parse(Console.ReadLine());
+    int b = Int32.Parse(Console.ReadLine());
+    x = -b / a;
+    if ( a==0 && b !=0)
+    {
+        Console.WriteLine( " phuong trinh vo nghiem");
+    }
+Console.ReadLine();
+}
